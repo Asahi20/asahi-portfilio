@@ -1,0 +1,187 @@
+@charset
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/* 以下、CSSスタート */
+
+.nav-space {
+    height: 50px;
+}
+
+
+.topimage {
+    
+    height: 900px;
+    width: 100%;
+    background-image: url(images/bird-5965265_1920.jpg);
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    
+}
+
+.top-h {
+    color: azure;
+    padding: 150px 180px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.profile-image {
+    margin: auto;
+}
+
+.profile {
+    line-height: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.ca-text{
+    padding: 0 20px;
+}
+
+.fa-aw {
+    font-size: 10em;
+    color: navy;
+} 
+
+.fa-text {
+    font-size: 25px;
+}
+
+
+
+.samplesite {
+    height: 500PX;
+    object-fit: contain;
+}
+
+.f-img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    filter: contrast(70%);
+}
+
+
+@media (max-width:1200px){
+
+    .topimage {
+    
+        height: 0;
+        width: 100%;
+        background-image: url(images/bird-5965265_1920.jpg);
+        padding-top: 66.666%;
+    
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        
+    }
+
+    .top-h {
+        color: azure;
+        padding: 50px 80px;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .samplesite {
+        height: 500PX;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:670px){
+    .top-h {
+        font-size: 15px;
+        padding: 20px 30px;     
+    }
+
+    .pr-s {
+        margin: auto;
+    }
+
+    .name {
+        padding-left: 10px;
+    }
+
+    .career {
+        padding-left: 10px;
+    }
+    
+
+    .ca-text,.ca-coment{
+        font-size: 13px;
+    }
+
+    .ca-coment{
+        text-align: center;
+    }
+
+
+    .samplesite {
+        height: 500PX;
+        object-fit: contain;
+    }
+
+}
