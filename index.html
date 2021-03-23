@@ -20,7 +20,7 @@
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand px-4" href="#">Asahi's Portfolio</a>
+          <a class="navbar-brand px-4" href="#"><h1 class="site-title">Asahi's Portfolio</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -64,29 +64,31 @@
         </div>
         <div class="row pr-s">
           <div class="col-md-6 col-12 text-center">
-            <img class="profile-image" src="images/IMG_5514 3.JPG" alt="" width="300">
+            <p>
+              <img class="profile-image" src="images/IMG_5514 3.JPG" alt="" width="300">
+            </p>
           </div>
-          <div class="col-md-6 col-12 pt-5">
-            <div class="profile ps-3">
-              <div class="flex">
-                <h5 class="name">Name</h5>
-                <h5 class="px-4">あさひ</h5>
-            </div>
-              <div class="flex">
-                <h5 class="career">Career</h5>
-                <div class="px-3 ca-text">
-                  １９９１年　東京都多摩市 生まれ<br>
-                  ２０１４年　都内大学卒業<br>
-                  ２０１４年　都内不動産会社 入社<br>
-                  ２０２０年　プログラミング学習開始<br>
-                </div>
-              </div>
+          <div class="col-md-6 col-12 text-center">
+            <div class="profile px-2 ca-text">
+              <dl>
+                <dt>Name</dt>
+                <dd>あさひ</dd>
+                <dt>Career</dt>
+                <dd>
+                    1991年　東京都生まれ<br>
+                    2014年　都内大学卒業<br>
+                    2014年　都内不動産会社　入社<br>
+                    2020年　プログラミング学習開始
+                </dd>
+              </dl>
               <div class="px-2 pt-3 ca-coment">
-                一念発起し、プログラミングの勉強開始。<br>
-                イラスト作家の妻を持ち、プログラミングで<br>
-                学んだことを活かし、サポートできることを<br>
-                模索し、日々奮闘中！
-              </div>            
+                <p>
+                  一念発起し、プログラミングの勉強開始。<br>
+                  イラスト作家の妻を持ち、プログラミングで<br>
+                  学んだことを活かし、サポートできることを<br>
+                  模索し、日々奮闘中！
+                </p>
+              </div> 
             </div>
           </div>
 
@@ -122,7 +124,7 @@
             <div class="card my-3 mx-1 text-center">
               <img src="images/portfolio01.png" class="card-img-top samplesite" alt="portfolio01">
               <div class="card-body">
-                <h5 class="card-title">サンプルページ１</h5>
+                <p class="card-title">サンプルページ１</p>
               </div>
             </div>
           </div>
@@ -130,7 +132,7 @@
             <div class="card my-3 mx-1 text-center">
               <img src="images/portfolio02.png" class="card-img-top samplesite " alt="portfolio01">
               <div class="card-body">
-                <h5 class="card-title">サンプルページ2</h5>
+                <p class="card-title">サンプルページ2</p>
               </div>
             </div>
           </div>
@@ -138,7 +140,7 @@
             <div class="card my-3 mx-1 text-center">
               <img src="images/portfolio01.png" class="card-img-top samplesite" alt="portfolio01">
               <div class="card-body">
-                <h5 class="card-title">サンプルページ１</h5>
+                <p class="card-title">サンプルページ１</p>
               </div>
             </div>
           </div>
@@ -153,16 +155,10 @@
           <div class="col-12 mb-3">
             <label for="name" class="form-label">お名前</label>
             <input type="text" class="form-control" id="name" placeholder="山田太郎" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
           </div>
           <div class="col-12 mb-3">
             <label for="mailadress" class="form-label">メールアドレス</label>
-            <input type="text" class="form-control" id="mailadress" placeholder="yamada@example.co.jp" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
+            <input type="text" class="form-control" id="mailadress" placeholder="yamada@example.co.jp" required>   
           </div>
           <div class="col-12 mb-3">
             <label for="t-message" class="form-label">お問い合わせ内容</label>
