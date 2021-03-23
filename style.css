@@ -57,6 +57,9 @@ table {
     height: 50px;
 }
 
+.site-title {
+    font-size: larger;
+}
 
 .topimage {
     
@@ -106,6 +109,19 @@ table {
 }
 
 
+dt {
+    font-size: 23px;
+    float: left;
+    display: block;
+}
+
+dd {
+    display: block;
+    padding-left: 90px;
+    text-align: left;
+}
+
+
 
 .samplesite {
     height: 500PX;
@@ -117,6 +133,10 @@ table {
     width: 100%;
     object-fit: cover;
     filter: contrast(70%);
+}
+
+.card-title {
+    font-size: 20px;
 }
 
 
@@ -151,7 +171,7 @@ table {
     }
 }
 
-@media (max-width:670px){
+@media (max-width:770px){
     .top-h {
         font-size: 15px;
         padding: 20px 30px;     
@@ -169,9 +189,14 @@ table {
         padding-left: 10px;
     }
     
+    .profile {
+        margin-left: 50px;
+        font-size: 15px;
+    }
 
-    .ca-text,.ca-coment{
-        font-size: 13px;
+
+    dt {
+        font-size: 20px;
     }
 
     .ca-coment{
